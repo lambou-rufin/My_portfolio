@@ -25,7 +25,7 @@ export const logo: Map =
 
 export enum Constants 
 {
-  USERNAME = "Charbel SONON",
+  USERNAME = " Rufin LAMBOANDRIANIRINA",
 }
 
 

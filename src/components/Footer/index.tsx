@@ -122,9 +122,9 @@ export const Footer = () => {
 
 
       <Box className="creator">
-        2023 - Portfolio{" "}
-        <a rel="noreferrer" href="https://github.com/AsKing07" target="_blank">
-          Charbel SONON
+        2024 - Portfolio{" "}
+        <a rel="noreferrer" href="https://github.com/lambou-rufin" target="_blank">
+          Rufin LAMBOANDRIANIRINA
         </a>
       </Box>
 
