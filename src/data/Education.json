@@ -1,0 +1,28 @@
+[
+  {
+    "name": "Institut de Formation et de Recherche en Informatique",
+    "location": "Université d'Abomey-Calavi, Bénin",
+    "course": "Licence",
+    "span": "2021 - 2024",
+    "specialization": "Génie Logiciel"
+  },
+
+
+
+  
+
+  {
+    "name": "Collège Catholique Père Aupiais",
+    "location": " Cotonou, Bénin",
+    "course": "Baccalauréat",
+    "span": "2019-2021",
+    "specialization": "Série C",
+    "score": "Mention Bien"
+  },
+  {
+    "name": "Collège Catholique Père Aupiais",
+    "location": "Cotonou, Bénin",
+    "course": "BEPC",
+    "span": "2014-2018"
+  }
+]

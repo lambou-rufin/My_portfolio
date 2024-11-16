@@ -1,0 +1,21 @@
+[
+  {
+    "name": "SpeedType",
+    "description": "Un projet web en JavaScript pour améliorer la saisie au clavier, appelé 'SpeedType'. L'application permet à l'utilisateur de s'entraîner à taper rapidement en affichant des mots ou des phrases et en calculant le score en fonction du temps de saisie.",
+    "sourceCode": "https://github.com/AsKing07/AppJS-SpeedType",
+    "demoLink": "https://asking07.github.io/AppJS-SpeedType/"
+  },
+  {
+    "name": "Gestion de Produit - Projet Java Spring Boot",
+    "description": "Ce dépôt GitHub contient le code source d'un projet de 'Gestion de Produit' réalisé avec Java Spring Boot. Ce projet a pour objectif de fournir une application de gestion de produits avec les opérations CRUD (Create, Read, Update, Delete). L'application utilise une base de données MySQL pour stocker les informations des produits et des utilisateurs. ",
+    "sourceCode": "https://github.com/AsKing07/Java-SpringBoot-Gestion-de-produits/",
+    "demoLink": ""
+  },
+  {
+    "name": "Projet Java (Gestion de compétences)",
+    "description": "Il s'agit d'un projet C++ de gestion de compétences en mode graphique réalisé avec Qt. L'application permet de gérer les compétences d'une équipe en utilisant une base de données fournie en format .db. ",
+    "sourceCode": "https://github.com/AsKing07/Gestion-de-Competences-en-C-avec-Qt---Projet-Graphique",
+    "demoLink": ""
+  }
+]
+
