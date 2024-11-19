@@ -1,8 +1,6 @@
 import { useEffect, useState } from "react";
-interface Size {
-  height: number | undefined;
-  width: number | undefined;
-}
+import { Size } from "../utils/model";
+
 export const useNavigationSize = () => {
   const initialSize: Size = { height: undefined, width: undefined };
   const [size, setSize] = useState(initialSize);

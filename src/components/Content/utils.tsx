@@ -12,13 +12,8 @@ import { EducationContainer } from "./Education";
 import { SkillsContainer } from "./Skills";
 import { CertificationsContainer } from "./Certifications";
 import { AboutMe } from "./About/About";
+import { ISectionImages, ISectionsInfo } from "../../utils/model";
 
-interface ISectionImages {
-  [key: string]: string | undefined;
-}
-interface ISectionsInfo {
-  [key: string]: any | undefined;
-}
 
 export const sectionsInfo: ISectionsInfo = {
   aboutMe: { src: Person, component: <AboutMe /> },

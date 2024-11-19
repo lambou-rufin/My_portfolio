@@ -1,6 +1,7 @@
 import { Box, styled, Button } from "@mui/material";
 import { CustomButton } from "../../../styles/sectionStyles";
 import { StyleConstants } from "../../../styles/StyleConstants";
+import { Prop } from "../../../utils/model";
 const CertificationWrapper = styled(Box)(({ theme }) => ({
   display: "flex",
   justifyContent: "space-between",
@@ -35,18 +36,7 @@ const ImageBox = styled(Box)(({ theme }) => ({
     },
   },
 }));
-interface certficate {
-  name?: string;
-  org?: string;
-  issued?: string;
-  expiry?: string;
-  credentialId?: string;
-  credentialUrl?: string;
-  url?: string;
-}
-interface Prop {
-  certficate: certficate;
-}
+
 export const Certification = ({ certficate }: Prop) => {
   const {
     name = "",

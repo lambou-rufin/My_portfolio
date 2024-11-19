@@ -3,15 +3,7 @@ import ProjectImg from "../../../assets/project.jpg";
 import { projectImage } from "../../../data/constants";
 import { CustomButton } from "../../../styles/sectionStyles";
 import { StyleConstants } from "../../../styles/StyleConstants";
-interface project {
-  name?: string;
-  description?: string;
-  sourceCode?: string;
-  demoLink?: string;
-}
-interface Prop {
-  project: project;
-}
+import { PropPROJ } from "../../../utils/model";
 
 const InfoWrapper = styled(Box)(() => ({
   "& .name": {
@@ -46,7 +38,7 @@ const ImageBox = styled(Box)(({ theme }) => ({
     },
   },
 }));
-export const Project = ({ project }: Prop) => {
+export const Project = ({ project }: PropPROJ) => {
   const {
     name = "",
     description = "",

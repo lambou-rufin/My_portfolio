@@ -7,20 +7,7 @@ import WebSiteIcon from "@mui/icons-material/Language";
 import { StyleConstants } from "../../../styles/StyleConstants";
 import { Key, useEffect } from "react";
 import { logo } from "../../../data/constants";
-interface IExperience {
-  span?: string;
-  company?: string;
-  location?: string;
-  twitter?: string;
-  linkedIn?: string;
-  website?: string;
-  facebook?: string;
-  instagram?: string;
-  progress?: any;
-}
-interface Prop {
-  experience: IExperience;
-}
+import { PropEXP } from "../../../utils/model";
 
 const Wrapper = styled(Box)(({ theme }) => ({
   display: "flex",
@@ -87,7 +74,7 @@ const DescriptionWrapper = styled(Box)(({ theme }) => ({
 }));
 
 
-const Experience = ({ experience }: Prop) => {
+const Experience = ({ experience }: PropEXP) => {
   const {
     company = "",
     span,

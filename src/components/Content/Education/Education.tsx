@@ -1,18 +1,8 @@
 import { Box, styled } from "@mui/material";
 import { clsx } from "clsx";
 import { StyleConstants } from "../../../styles/StyleConstants";
-interface Education {
-  name?: string;
-  course?: string;
-  location?: string;
-  span?: string;
-  specialization?: string;
-  score?: string;
-}
-interface Prop {
-  education: Education;
-  ind: number;
-}
+import { PropEd } from "../../../utils/model";
+
 const EducationWrapper = styled(Box)(({ theme }) => ({
   display: "flex",
   alignItems: "center",
@@ -55,7 +45,7 @@ const EducationWrapper = styled(Box)(({ theme }) => ({
     },
   },
 }));
-export const Education = ({ education, ind }: Prop) => {
+export const Education = ({ education, ind }: PropEd) => {
   return (
     <EducationWrapper className={clsx({ reverse: ind % 2 !== 0 })}>
       <div className="span">{education.span}</div>

@@ -11,7 +11,7 @@ const IntroductionContainer = styled(Box)(({ theme }) => ({
   justifyContent: "center",
   backgroundColor: StyleConstants.HEADER,
   top: 0,
-  fontSize: "2em",
+  fontSize: "1.5em",
   zIndex: 1,
   fontWeight: 600,
   [theme.breakpoints.down("sm")]: {

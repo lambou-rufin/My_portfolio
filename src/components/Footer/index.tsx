@@ -10,7 +10,7 @@ import InstagramIcon from "@mui/icons-material/Instagram";
 import { CustomButtonFooter } from "../../styles/sectionStyles";
 
 const FooterContainer = styled(Box)(({ theme }) => ({
-  height: 150,
+  height: 100,
   width: "100%",
   display: "flex",
   flexDirection: "column",

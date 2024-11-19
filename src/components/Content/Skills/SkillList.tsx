@@ -3,10 +3,7 @@ import { Box, styled } from "@mui/material";
 import SoftSkill from "../../../assets/softSkills.png";
 import HardSkill from "../../../assets/hardSkills.png";
 import { StyleConstants } from "../../../styles/StyleConstants";
-interface Prop {
-  skills: string[];
-  type: string;
-}
+import { PropSKI } from "../../../utils/model";
 
 const SkillListWrapper = styled(Box)(() => ({
   display: "flex",
@@ -51,7 +48,7 @@ const SkillListWrapper = styled(Box)(() => ({
     },
   },
 }));
-export const SkillList = ({ type, skills }: Prop) => {
+export const SkillList = ({ type, skills }: PropSKI) => {
   return (
     <SkillListWrapper>
       <Box className="skillType bold">{`${
