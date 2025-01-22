@@ -28,7 +28,7 @@ export const ProjectsContainer = () => {
           <Project project={project} key={ind} />
         ))}
       </Box>
-      <GitHubLink href="https://github.com/AsKing07" target="_blank" rel="noopener noreferrer">
+      <GitHubLink href="https://github.com/lambou-rufin" target="_blank" rel="noopener noreferrer">
         <Button variant="contained" color="primary" startIcon={<GitHubIcon />}>
           Pour plus de projets, visitez mon repository GitHub!
         </Button>

@@ -1,6 +1,6 @@
 export enum StyleConstants {
   WHITE_COLOR = "#ffffff",
-  HEADER = "#f8f8f8",
+  HEADER = "#111827",
   FOOTER = "rgba(100,137,167,0.25)",
   ACTIVE_SECTION = "#6489a7",
   SECTION_BORDER = "#465258",

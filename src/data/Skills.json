@@ -9,13 +9,12 @@
     "Résilience"
   ],
   "hardSkills": [
-    "Programmation: Java, C, JavaScript, etc",
-    "Conception et architecture logicielle",
-    "Bases de données: SQL",
-    "Développement web: HTML, CSS, JavaScript, Booststrap, WordPress) & Back-end ",
-    "Design: Canvas, Photoshop, Adobe XD",
-    "Algorithmes et structures de données",
-    "Génie logiciel"
+    "Programmation: Java, JavaScript, PHP, Python, etc",
+ "   Frameworks: React, Node.js, Angular, Spring boot",
+    "Bases de données: Mysql, MongoDB, PostGresql",
+    "Développement web: HTML, CSS, JavaScript, Booststrap, PHP, API REST, WebSocket, Responsive design, GraphQL, OAuth.",
+    "Outils : Git, Docker, Postman",
+    "Conception et architecture logicielle"
   ]
 }
 

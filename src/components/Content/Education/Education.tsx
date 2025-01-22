@@ -14,7 +14,7 @@ const EducationWrapper = styled(Box)(({ theme }) => ({
   "& .span": {
     height: 100,
     width: 100,
-    border: "1px solid black",
+    // border: "1px solid black",
     background: StyleConstants.EDUCATION_BG,
     display: "flex",
     alignItems: "center",
@@ -28,7 +28,7 @@ const EducationWrapper = styled(Box)(({ theme }) => ({
     flexGrow: 1,
   },
   "& .description": {
-    border: "1px solid black",
+    // border: "1px solid black",
     background: StyleConstants.EDUCATION_BG,
     padding: 15,
     width: 450,

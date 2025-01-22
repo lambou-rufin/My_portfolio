@@ -11,16 +11,16 @@ import { useNavigationSize } from "../../../hooks/useNavigationSize";
 const NavigationWrapper = styled(Box)(({ theme }) => ({
   display: "flex",
   flexDirection: "row",
-  justifyContent: "center",
-  backgroundColor: StyleConstants.NAVIGATION_BG,
-  padding: "0 20px",
+  justifyContent: "end",
+  // backgroundColor: StyleConstants.NAVIGATION_BG,
+  padding: "20px 20px 20px 20px",
   borderRadius:12,
   position: "sticky",
   width: "100%",
   zIndex: 1,
   top: 84,
   "& .nav-section": {
-    padding: 8,
+    padding: 20,
     display: "flex",
     flexDirection: "column",
     "&:hover": {
@@ -29,25 +29,27 @@ const NavigationWrapper = styled(Box)(({ theme }) => ({
   },
   "& .section-name": {
     width: 84,
-    fontSize: 12,
+    fontSize: 13,
     display: "flex",
-    justifyContent: "center",
+    justifyContent: "space-between",
+    alignItems: "center",
     borderRadius: 10,
+    color: "white"
   },
   "& .nav-item": {
-    height: 70,
-    width: 70,
-    padding: 5,
+    height: 20,
+    width: 20,
+    padding: 10,
     borderWidth: 2,
-    borderStyle: "solid",
+    // borderStyle: "solid",
     borderColor: StyleConstants.SECTION_BORDER,
     borderRadius: "50%",
     display: "flex",
     justifyContent: "center",
     alignItems: "center",
     "& img": {
-      height: 58,
-      width: 58,
+      height: 30,
+      width: 30,
     },
   },
   "& .arrow": {
@@ -61,8 +63,8 @@ const NavigationWrapper = styled(Box)(({ theme }) => ({
     alignItems: "center",
     transform: "rotate(271deg)",
     "& img": {
-      height: 58,
-      width: 58,
+      height: 50,
+      width: 50,
     },
   },
   "& .before": {

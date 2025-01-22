@@ -3,18 +3,16 @@
 
 
   {
-    "span": "2023 - Actuellement",
-    "company": "BioRezerv",
-    "location": "Cotonou, Bénin",
-    "facebook": "https://www.facebook.com/profile.php?id=100089607165662&mibextid=LQQJ4d",
-    "instagram": "https://instagram.com/biorezerv?igshid=MzRlODBiNWFlZA==",
+    "span": "Avril – Novembre 2022 ",
+    "company": "Numerika",
+    "location": "Analamahitsy, Antananarivo",
     "website": "https://rezervbio.x10.mx/",
     "progress": [
       {
-        "role": "Graphisme & DEV WEB",
-        "span": "2023 - Actuellement",
+        "role": "Developpeur PHP Laravel",
+        "span": "Avril – Novembre 2022",
         "descriptions": [
-          "Développement d'une identité visuelle cohérente et moderne, renforçant la reconnaissance de la marque et augmentant la conﬁance des clients",
+          "Conception et intégration d’un module employer à la plateforme formation.mg au sein du Société Numerika",
           "Conception et réalisation d'une campagne de marketing digital comprenant des bannières publicitaires, des newsletters et des posts sur les réseaux sociaux, augmentant la notoriété de l'entreprise et attirant de nouveaux clients."
         ]
       }

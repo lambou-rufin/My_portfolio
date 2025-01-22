@@ -19088,4 +19088,4 @@ const fullPath = "https://asking07.github.io/MyPortfolio/static/media/";
         Zo();
     })();
 })();
-//# sourceMappingURL=main.11a1e91f.js.map
+// sourceMappingURL=main.11a1e91f.js.map

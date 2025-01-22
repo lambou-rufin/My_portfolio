@@ -17,7 +17,7 @@ const Wrapper = styled(Box)(({ theme }) => ({
 export const ContentContainer = () => {
   return (
     <Wrapper>
-      <NavigationList />
+      {/* <NavigationList /> */}
       <SectionsRoot />
     </Wrapper>
   );
