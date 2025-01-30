@@ -38,16 +38,25 @@ export const AboutMe: FC = () => {
 
   const ImageBox = styled(Box)(({ theme }) => ({
     flex: "0 0 auto",
-    maxWidth: "150px",
-    maxHeight: "150px", // Limite la hauteur pour un conteneur carré
-    overflow: "hidden", // Masque le reste de l'image
-    borderRadius: "50%", // Rend l'image circulaire
+    width: "150px",
+    height: "150px",
+    borderRadius: "50%",
+    overflow: "hidden",
     position: "relative",
+    "&::before": {
+      content: '""',
+      position: "absolute",
+      top: 0,
+      left: 0,
+      right: 0,
+      bottom: 0,
+      backgroundColor: "rgba(0, 0, 0, 0.3)",
+      borderRadius: "50%",
+    },
     img: {
       width: "100%",
-      height: "auto",
-      objectFit: "cover", // Adapte l'image à la taille du conteneur
-      transform: "translateY(-10%)", // Ajuste le positionnement pour cadrer la personne
+      height: "100%",
+      objectFit: "cover",
     },
   }));
 
