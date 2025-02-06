@@ -6,7 +6,7 @@ import saryko from "../../../assets/saryko.png";
 
 export const AboutMe: FC = () => {
   const [animatedText, setAnimatedText] = useState("");
-  const fullText = "Hello Rufin";
+  const fullText = "Je suis Ruffin !";
 
   useEffect(() => {
     let index = 0;
@@ -22,7 +22,7 @@ export const AboutMe: FC = () => {
   }, []);
 
   const StyledContainer = styled(Box)(({ theme }) => ({
-    width: "85%",
+    width: "100%",
     margin: "0 auto",
     display: "flex",
     alignItems: "center",
@@ -38,11 +38,12 @@ export const AboutMe: FC = () => {
 
   const ImageBox = styled(Box)(({ theme }) => ({
     flex: "0 0 auto",
-    width: "150px",
-    height: "150px",
-    borderRadius: "50%",
+    width: "350px",
+    height: "40S0px",
     overflow: "hidden",
     position: "relative",
+    bottom: "150px",
+    right: "15px",
     "&::before": {
       content: '""',
       position: "absolute",
@@ -50,8 +51,7 @@ export const AboutMe: FC = () => {
       left: 0,
       right: 0,
       bottom: 0,
-      backgroundColor: "rgba(0, 0, 0, 0.3)",
-      borderRadius: "50%",
+      // borderRadius: "50%",
     },
     img: {
       width: "100%",
@@ -71,6 +71,7 @@ export const AboutMe: FC = () => {
 
   const StyledH1 = styled("h1")(({ theme }) => ({
     color: theme.palette.text.primary,
+    width: "75%",
     fontSize: "1.2rem",
     lineHeight: "1.6",
     margin: 0,
@@ -81,11 +82,11 @@ export const AboutMe: FC = () => {
 
   const AnimatedText = styled("div")(({ theme }) => ({
     position: "absolute",
-    top: "-40px",
+    top: "-80px",
     left: 0,
     width: "100%",
-    textAlign: "center",
-    fontSize: "1.5rem",
+    textAlign: "start",
+    fontSize: "3.5rem",
     fontWeight: "bold",
     color: theme.palette.primary.main,
   }));
